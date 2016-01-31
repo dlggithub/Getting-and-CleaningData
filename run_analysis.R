@@ -59,6 +59,15 @@ str(DataSet)
 str(DataSet3)
 
 	## Appropriately labels the data set with descriptive variable names.
+	
+	names(DataSet3) <- gsub("V2", "activity", names(DataSet3))
+head(DataSet3, 2)
+
+names(DataSet3) <- gsub("V2", "activity", names(DataSet3))
+names(DataSet3) <- gsub("t", "time", names(DataSet3))
+names(DataSet3) <- gsub("f", "frequency", names(DataSet3))
+names(DataSet3) <- gsub("f", "frequency", names(DataSet3))
+head(DataSet3, 10)
 	## From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 	
 	
