@@ -11,7 +11,14 @@ Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
 
-The source R script called run_analysis completed the the following tasks:
+
+ I opened and unzipped the following data file and loaded it into R Studio. 
+ 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+ 
+ After which I produced script to do the following tasks completing the required assignment.
 
 	1	Merges the training and the test sets to create one data set.
 
@@ -21,5 +28,5 @@ The source R script called run_analysis completed the the following tasks:
 
 	4	Appropriately labels the data set with descriptive variable names.
 
-	5	From the data set in step 4, creates a second, independent tidy data set with the average 		of each variable for each activity and each subject. 
+	5	From the data set in step 4, creates a second, independent tidy data set with the average 		of each variable for each activity and each subject ending with final file "tidy.txt". 
 
