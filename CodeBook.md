@@ -1,4 +1,8 @@
-ACTIVITY LABELS
+The following code book gives labels for each activity and each recording per activity per volunteer. 
+
+
+
+ACTIVITY LABELS 
 
 1 WALKING
 2 WALKING_UPSTAIRS
@@ -9,7 +13,8 @@ ACTIVITY LABELS
 
 FEATURES LABELS 
 
-XYZ Represents axial direction of body movement. 
+XYZ Represents different axial directions 
+of body movement recorded per volunteer per activity listed above. 
 
 1 tBodyAcc-mean()-X
 2 tBodyAcc-mean()-Y
@@ -572,4 +577,5 @@ XYZ Represents axial direction of body movement.
 559 angle(X,gravityMean)
 560 angle(Y,gravityMean)
 561 angle(Z,gravityMean)
+
 
